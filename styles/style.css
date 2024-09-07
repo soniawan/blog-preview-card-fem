@@ -73,6 +73,10 @@ body {
   color: #6b6b6b;
 }
 
+.publish-date {
+  display: block;
+}
+
 /* Margin bottom Content */
 .category,
 .publish-date,
