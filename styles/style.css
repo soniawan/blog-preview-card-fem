@@ -35,7 +35,7 @@ body {
 
 /* BLog image */
 .blog-img {
-  width: 336px;
+  width: 100%;
   height: 200px;
   border-radius: 10px;
 }
@@ -104,4 +104,29 @@ body {
 
 .card:hover .title {
   color: #f4d04e;
+}
+
+/* Responsive  */
+@media screen and (max-width: 375px) {
+  body {
+    font-size: 14px;
+  }
+
+  .card {
+    width: 327px;
+  }
+
+  .category {
+    width: 73px;
+    height: 26px;
+    font-size: 12px;
+  }
+
+  .publish-date {
+    font-size: 12px;
+  }
+
+  .title {
+    font-size: 20px;
+  }
 }
